@@ -10,7 +10,6 @@ import LeftImage from '../public/pundf_header_desktop_muster04.png';
 import RightImage from '../public/pundf_header_desktop_muster03.png';
 import Sample from '../public/sampleimage1.jpg';
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
