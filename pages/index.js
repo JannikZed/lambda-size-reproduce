@@ -1,5 +1,15 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Img from 'react-optimized-image';
+import Dose2020 from '../public/pundf_dose_frei.png';
+import Dose2019 from '../public/dose_2018.png';
+import Dose2000 from '../public/dose_2019.png';
+import Dose2001 from '../public/dose_2020.png';
+import Dose2002 from '../public/Folie2Kompost_placeholder.png';
+import LeftImage from '../public/pundf_header_desktop_muster04.png';
+import RightImage from '../public/pundf_header_desktop_muster03.png';
+import Sample from '../public/sampleimage1.jpg';
+
 
 export default function Home() {
   return (
@@ -16,6 +26,14 @@ export default function Home() {
 
         <p className={styles.description}>
           Get started by editing{' '}
+          <Img width="100%" src={Dose2020} type="desktopFull"/>
+          <Img width="100%" src={Dose2019} type="desktopFull"/>
+          <Img width="100%" src={Dose2000} type="desktopFull" />
+          <Img width="100%" src={Dose2001} type="desktopFull" />
+          <Img width="100%" src={Dose2002} type="desktopFull" />
+          <Img width="100%" src={LeftImage} type="desktopFull" />
+          <Img width="100%" src={RightImage} type="desktopFull" />
+          <Img width="100%" src={Sample} type="desktopFull" />
           <code className={styles.code}>pages/index.js</code>
         </p>
 
